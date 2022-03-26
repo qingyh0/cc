@@ -1,0 +1,1 @@
+cmd_/home/yan/code/tem_hum/driver/modules.order := {   echo /home/yan/code/tem_hum/driver/gpio.ko;   echo /home/yan/code/tem_hum/driver/m74hc595.ko;   echo /home/yan/code/tem_hum/driver/si7006.ko; :; } | awk '!x[$$0]++' - > /home/yan/code/tem_hum/driver/modules.order

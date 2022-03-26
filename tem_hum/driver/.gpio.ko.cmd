@@ -1,0 +1,1 @@
+cmd_/home/yan/code/tem_hum/driver/gpio.ko := arm-linux-gnueabihf-ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/yan/code/tem_hum/driver/gpio.ko /home/yan/code/tem_hum/driver/gpio.o /home/yan/code/tem_hum/driver/gpio.mod.o;  true

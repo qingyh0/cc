@@ -1,0 +1,1 @@
+cmd_/home/yan/code/tem_hum/driver/Module.symvers := sed 's/ko$$/o/' /home/yan/code/tem_hum/driver/modules.order | scripts/mod/modpost   -E  -o /home/yan/code/tem_hum/driver/Module.symvers -e -i Module.symvers   -T -

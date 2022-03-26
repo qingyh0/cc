@@ -1,0 +1,1 @@
+cmd_/home/yan/code/tem_hum/driver/m74hc595.ko := arm-linux-gnueabihf-ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/yan/code/tem_hum/driver/m74hc595.ko /home/yan/code/tem_hum/driver/m74hc595.o /home/yan/code/tem_hum/driver/m74hc595.mod.o;  true
